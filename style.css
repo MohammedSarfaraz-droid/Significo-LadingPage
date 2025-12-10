@@ -27,6 +27,9 @@
 *::selection{
     background-color: var(--salmon);;
 }
+body{
+    transition: background-color ease-out .5s;
+}
 
 .videodiv{
     clip-path: circle(var(--clip) at 50% 50%);
@@ -41,7 +44,7 @@ body[theme="black"] .section{
 body[theme="cyan"]{
     background-color: var(--cyan);
 }
-body[theme="cyan"] {
+body[theme="cyan"] .section{
     color: var(--dcyan);
 }
 body[theme="salmon"]{
